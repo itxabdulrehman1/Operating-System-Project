@@ -1,0 +1,12 @@
+{
+  "num_frames": 4,
+  "algorithm": "fifo",
+  "io_latency": 0.001,
+  "log_dir": "logs",
+  "out_csv": "logs/access_log_fifo.csv",
+  "out_csv_summary": "logs/summary_fifo.csv",
+  "processes": [
+    {"pid": 1, "sequence": [0,1,2,3,0,1,4,0,1,2,3,4]},
+    {"pid": 2, "sequence": [2,3,4,2,1,0,1,2,3,4]}
+  ]
+}

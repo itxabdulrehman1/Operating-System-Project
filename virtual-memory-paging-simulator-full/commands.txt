@@ -1,0 +1,9 @@
+python3 src/simulator.py --config configs/config_small.json --algorithm fifo
+
+python3 src/simulator.py --config configs/config_medium.json --algorithm lru
+
+
+python3 src/simulator.py --config configs/config_large.json --algorithm fifo
+python3 src/simulator.py --config configs/config_large.json --algorithm lru
+python3 src/simulator.py --config configs/config_large.json --algorithm optimal
+
